@@ -1,72 +1,153 @@
-# Getting Started with Create React App
+<a name="readme-top"></a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
 
-## [Live demo](https://torre-clone-front-8lnc.vercel.app)
+  <h1>Torre Clone Front</h1>
 
-## Available Scripts
+</div>
 
-In the project directory, you can run:
 
-### `npm start`
+# 📗 Table of Contents
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+  - [Tech Stack](#tech-stack)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# 📖 Torre Clone Front <a name="about-project"></a>
 
-### `npm test`
+**Torre Clone Front** is a home assignment project developed using  React, Bootstrap, and Ruby on Rails. Look at the back end! [Backend Project](https://github.com/Goruchie/torre-clone-back).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🛠 Built With <a name="built-with"></a>
 
-### `npm run build`
+### Tech Stack <a name="tech-stack"></a>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Developed using React fot the Front-End and Ruby on Rails for the Back-End API.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://reactjs.org/">React.js</a></li>
+  </ul>
+  <summary>Database</summary>
+  <ul>
+    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+  </ul>
+  <summary>Back-end</summary>
+  <ul>
+    <li><a href="https://www.rubyonrails.org/">RubyOnRails</a></li>
+  </ul>
+</details>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🚀 Live Demo <a name="live-demo"></a>
 
-### `npm run eject`
+- [Live Demo](https://torre-clone-front-8lnc.vercel.app)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 💻 Getting Started <a name="getting-started"></a>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+To get a local copy up and running, follow these steps.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Prerequisites
 
-## Learn More
+In order to run this project you need:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Backend
+### Setup
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Clone the backend repository to your desired folder:
 
-### Code Splitting
+```sh
+  git clone https://github.com/Goruchie/torre-clone-back
+  cd torre-clone-back
+```
+### Install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Install this project with:
 
-### Analyzing the Bundle Size
+```sh
+  bundle install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Usage
 
-### Making a Progressive Web App
+If you want to use the local backend port, you will need to change the base url in the FetchData FrontEnd file.
+To run the project, execute the following command:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```sh
+  rails s -p 3001
+```
 
-### Advanced Configuration
+## FrontEnd
+Clone this repository to your desired folder:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```sh
+  git clone https://github.com/Goruchie/torre-clone-front
+  cd torre-test
+```
 
-### Deployment
+### Install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Install this project with:
 
-### `npm run build` fails to minify
+```sh
+  npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Usage
+
+To run the project, execute the following command:
+
+```sh
+  npm start
+```
+
+
+## 👥 Authors <a name="authors"></a>
+
+👤 **Marcos Gualtero Lourenzo**
+
+- GitHub: [@Goruchie](https://github.com/goruchie)
+- Twitter: [@Goruchie2](https://twitter.com/goruchie2)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/marcosgualtero)
+
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- Improve styles.
+- Add features when user click a skill.
+- Refactor dirty code.
+
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/Goruchie/torre-clone-front/issues).
+
+
+## ⭐️ Show your support <a name="support"></a>
+
+Give a ⭐️ if you like this project!
+
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+Thank to all my partners that encourage me to do this test, and thanks to torre for giving me this oportunity!
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
